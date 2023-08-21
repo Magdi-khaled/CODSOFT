@@ -39,3 +39,6 @@ section > h1:not(.sc-2){
     text-align: center;
     margin-bottom: 55px;
 }
+.sc-3,.sc-4{
+    margin: 0;
+}

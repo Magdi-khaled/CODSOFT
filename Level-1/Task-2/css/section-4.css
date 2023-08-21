@@ -3,7 +3,6 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
 }
 .sc-4 .projects div{
     position: relative;
@@ -58,4 +57,9 @@
     transition: var(--main-transition);
 }
 /* Media Part */
-/* @media screen and (max-width :376px){} */
+@media screen and (max-width :1286px){
+    .sc-4 .projects,
+    .sc-3 .processes{
+        justify-content: center;
+    }
+}
