@@ -2,10 +2,17 @@
 header{
     min-height: 100px;
     padding: var(--main-padding);
+    padding-bottom: 0;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    background-color: #000;
+    opacity: .85;
 }
 header .nav-logo{
     width: 40%;

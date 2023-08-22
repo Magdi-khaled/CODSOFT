@@ -77,17 +77,17 @@
 }.sc-2 .areas .ar .ar-2::before{
     width: 98%;
 }.sc-2 .areas .ar .ar-3::before{
-    width: 94%;
+    width: 97%;
 }.sc-2 .areas .ar .ar-4::before{
-    width: 93%;
+    width: 96%;
 }.sc-2 .areas .ar .ar-5::before{
-    width: 75%;
+    width: 90%;
 }.sc-2 .areas .ar .ar-6::before{
-    width: 80%;
+    width: 81%;
 }.sc-2 .areas .ar .ar-7::before{
     width: 100%;
 }.sc-2 .areas .ar .ar-8::before{
-    width: 90%;
+    width: 95%;
 }
 /* --- */
 .sc-2 .areas .ar div::after{
@@ -104,17 +104,17 @@
 }.sc-2 .areas .ar .ar-2::after{
     right: 2%;
 }.sc-2 .areas .ar .ar-3::after{
-    right: 6%;
+    right: 3%;
 }.sc-2 .areas .ar .ar-4::after{
-    right: 5%;
+    right: 4%;
 }.sc-2 .areas .ar .ar-5::after{
-    right: 25%;
+    right: 10%;
 }.sc-2 .areas .ar .ar-6::after{
-    right: 20%;
+    right: 19%;
 }.sc-2 .areas .ar .ar-7::after{
     right: 0%;
 }.sc-2 .areas .ar .ar-8::after{
-    right: 10%;
+    right: 5%;
 }
 /* Media Part */
 @media screen and (max-width:1225px){

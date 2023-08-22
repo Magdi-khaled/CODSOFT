@@ -1,6 +1,7 @@
 @import './main.css';
 footer{
     min-height: 4rem;
+    width: 100%;
     padding: 20px;
     background-color: #1e1e1e;
     display: flex;
