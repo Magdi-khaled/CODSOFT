@@ -1,14 +1,12 @@
 @import './main.css';
-.sc-3{
-    margin: 0;
-}
 .sc-3 .processes{
     margin-top: 10px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
 }
-.sc-3 .processes div{ 
+.sc-3 .processes div{
     background-color: #0B0B0B;
     padding: var(--main-padding);
     min-height: 20rem;
@@ -18,12 +16,11 @@
 }
 .sc-3 .processes .p4{
     margin-right: 0px;
-} 
+}
 .sc-3 .processes div i{
     width: 48px;
     height: 48px;
     background-color: #fff;
-
 }
 .sc-3 .processes div h3{
     margin-top: var(--main-margin);

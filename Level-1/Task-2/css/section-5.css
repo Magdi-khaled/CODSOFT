@@ -8,7 +8,7 @@
 .sc-5 .contact img{
     width: 28rem;
     height: 28rem;
-    filter: grayscale(1);
+    filter: grayscale(0);
     border-radius: 15rem;
 }
 .sc-5 .contact div{

@@ -13,10 +13,18 @@
 /* Part-1 */
 .sc-1 .info-part{
     width: 50%;
+    min-height: 30rem;
 }
 .sc-1 .info-part h1{
+    text-shadow: 2px -4px -1px #fff;
+    min-height: 27rem;
     margin-top: 60px;
     font-size: 4.5em;
+    color: #a09f9f;
+}
+.sc-1 .info-part h1 div{
+    margin-top: 30px;
+    padding-left: 10px;
     color: #a09f9f;
 }
 .sc-1 .info-part h1::first-letter{
@@ -35,6 +43,10 @@
     font-weight: 550;
     cursor: pointer;
     transition: var(--main-transition);
+}
+.sc-1 .info-part .connect button a{
+    text-decoration: none;
+    color: #000;
 }
 .sc-1 .info-part .connect ul{
     list-style: none;
@@ -71,10 +83,11 @@
     justify-content: center;
 }
 .sc-1 .img-part img{
-    width: 20rem;
-    height: 20rem;
-    filter: grayscale(1.9);
-    /* filter: blur(2px); */
+    width: 25rem;
+    height: 25rem;
+    background-color: #000;
+    filter: grayscale(0);
+    background-color: #1e1e1e;
     border-radius: var(--circle-radius);
     border: 5px solid #e1e1e1;
     margin: 10px;
@@ -90,8 +103,8 @@
 /* Media Part */
 @media  only screen and (min-width:300px) and (max-width:665px){
     .sc-1 .img-part img{
-        width: 10rem;
-        height: 10rem;
+        width: 13rem;
+        height: 13rem;
     }
     .sc-1 .info-part h1{
         font-size: 2.5em;
